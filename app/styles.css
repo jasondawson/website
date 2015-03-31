@@ -57,7 +57,7 @@ li {
 	transition: transform 150ms ease-in;
 }
 
-li:hover {
+.nav li:hover {
 	transform: scaleX(1.15);
 }
 
