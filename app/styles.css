@@ -27,6 +27,13 @@ body, html {
 #main-img {
 	max-height: 80%;
 	width: auto;
+	opacity: .8;
+}
+
+#main-content {
+	background: url('/img/calm.jpg');
+	background-size: 100%;
+	background-position: 0 -90px;
 }
 
 
