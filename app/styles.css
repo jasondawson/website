@@ -173,3 +173,8 @@ a:hover {
 .clear {
 	clear: both;
 }
+
+#tagline {
+	position: absolute;
+	bottom: 5%;
+}
