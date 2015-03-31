@@ -25,7 +25,9 @@ body, html {
 }
 
 #main-img {
-	max-height: 80%;
+	position: absolute;
+	right: 5%;
+	max-height: 60%;
 	width: auto;
 	opacity: .8;
 }
