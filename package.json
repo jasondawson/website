@@ -1,0 +1,20 @@
+{
+  "name": "jasondawson.com",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Dawson",
+  "license": "ISC",
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.7.3"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "react": "^0.13.1",
+    "react-router": "^0.13.2"
+  }
+}

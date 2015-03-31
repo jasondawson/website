@@ -1,0 +1,175 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+ 	box-sizing: border-box;
+}
+
+
+.main-view {
+	position:absolute;
+  top: 50px;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+/* * {
+	outline: 1px solid red;
+} */
+
+.home {
+	height: 100%;
+	width: 100%;
+	background: #01579B;
+}
+
+
+.resume {
+	height: 100%;
+	width: 100%;
+	background: #0277BD;
+	overflow: auto;
+}
+
+.contact {
+	height: 100%;
+	width: 100%;
+	background: #0288D1;
+}
+
+.about {
+	height: 100%;
+	width: 100%;
+	background: #039BE5;
+}
+
+.navbar {
+	margin-bottom: 0;
+	transition: transform 150ms ease-in;
+}
+
+.navbar:hover {
+	transform: scaleY(1.15);
+}
+
+li {
+	transition: transform 150ms ease-in;
+}
+
+li:hover {
+	transform: scaleX(1.15);
+}
+
+.navbar-custom {
+	background: #90A4AE;
+}
+
+.navbar-custom-link {
+	font-size: 1.2em;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.content {
+	padding: 2% 8%;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-arrow-page {
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	opacity: 0;
+	width: 5%;
+	min-width: 80px;
+	min-height: 100%;
+	background: #43A047;
+	transition: opacity 200ms ease-in;
+}
+
+.nav-arrow-right {
+	right: 0;
+} 
+
+.nav-arrow-left {
+	left: 0;
+}
+
+i {
+	align-self: center;
+}
+
+.nav-arrow-page:hover {
+	opacity: .7;
+}
+
+.nameFont {
+	font-family: sans-serif;
+	font-size: 8em;
+	font-weight: bold;
+	color: #212121;
+}
+
+.nameFontHeader {
+	float: left;
+	font-size: 2em;
+	display: inline-block;
+	line-height: 40px;
+	text-decoration: none;
+	color: #212121;
+}
+
+.socialContainer {
+	box-sizing: border-box;
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	height: 180px;
+	width: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
+}
+
+.socialBox {
+	box-sizing: border-box;
+	border-radius: 48%;
+	min-height: 48%;
+	min-width: 48%;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	background: #EEEEEE;
+	transition: transform 0ms linear;
+}
+
+.socialBox:hover {
+	background: #43A047;
+	transition: all 400ms ease;
+	transform: rotate(360deg) scale(1.15);
+}
+
+.fa {
+	color: #212121;
+	align-self: center;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+.jumbotron {
+	padding: 15px;
+	margin-bottom: 0;
+}
+
+.clear {
+	clear: both;
+}
