@@ -24,6 +24,11 @@ body, html {
 	background: #01579B;
 }
 
+#main-img {
+	max-height: 80%;
+	width: auto;
+}
+
 
 .resume {
 	height: 100%;
