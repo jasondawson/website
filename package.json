@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jason Dawson",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/jasondawson/website.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "jsx-loader": "^0.12.2",
