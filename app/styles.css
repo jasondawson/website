@@ -5,6 +5,9 @@ body, html {
  	box-sizing: border-box;
 }
 
+.fullScreen {
+	min-height: 800px;
+}
 
 .main-view {
 	position:absolute;
@@ -109,7 +112,7 @@ li {
 
 .nav-arrow-right {
 	right: 0;
-} 
+}
 
 .nav-arrow-left {
 	left: 0;
@@ -189,7 +192,8 @@ a:hover {
 	clear: both;
 }
 
-#tagline {
-	position: absolute;
-	bottom: 5%;
+.img.img-responsive {
+	height: 220px;
+	min-height: 220px;
+	max-height: 220px;
 }
